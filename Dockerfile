@@ -1,6 +1,6 @@
 FROM python:3.8
 
-ARG NAME=geo-photos
+ARG NAME=geo-images
 
 RUN apt-get update -y && \
     apt-get install tini -y
@@ -11,9 +11,6 @@ RUN python -m pip install --upgrade pip && \
     pip install jupyterlab pandas numpy pyproj piexif simplekml pillow pillow_heif
 
 WORKDIR /home/${NAME}
-
-#COPY ./requirements.txt .
-#RUN pip install -r requirements.txt
 
 COPY ./user-settings/* /root/.jupyter/lab/user-settings/@jupyterlab
 
