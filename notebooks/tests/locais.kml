@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="2">
+            <IconStyle id="3">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="4">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Placemark id="6">
+            <name>IMG_20210924_113255296</name>
+            <description>&lt;h2 style=&quot;background-color: #7700bb; color: #ffffff&quot;&gt;
+                                            Data/Hora: 2021:09:24 11:32:55
+                                        &lt;/h2&gt;
+                                        &lt;img 
+                                          src=&quot;images/IMG_20210924_113255296.jpg&quot; 
+                                          alt=&quot;picture&quot; 
+                                          width=&quot;1200&quot; 
+                                          height=&quot;900&quot; 
+                                          align=&quot;left&quot; /&gt;;</description>
+            <styleUrl>#2</styleUrl>
+            <Point id="5">
+                <coordinates>-51.735524,-0.183027,12.253</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="8">
+            <name>IMG_20210916_140829767</name>
+            <description>&lt;h2 style=&quot;background-color: #7700bb; color: #ffffff&quot;&gt;
+                                            Data/Hora: 2021:09:16 14:08:29
+                                        &lt;/h2&gt;
+                                        &lt;img 
+                                          src=&quot;images/IMG_20210916_140829767.jpg&quot; 
+                                          alt=&quot;picture&quot; 
+                                          width=&quot;1200&quot; 
+                                          height=&quot;900&quot; 
+                                          align=&quot;left&quot; /&gt;;</description>
+            <styleUrl>#2</styleUrl>
+            <Point id="7">
+                <coordinates>-50.9737,2.486679,21.602</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="10">
+            <name>IMG_20210924_104917945</name>
+            <description>&lt;h2 style=&quot;background-color: #7700bb; color: #ffffff&quot;&gt;
+                                            Data/Hora: 2021:09:24 10:49:17
+                                        &lt;/h2&gt;
+                                        &lt;img 
+                                          src=&quot;images/IMG_20210924_104917945.jpg&quot; 
+                                          alt=&quot;picture&quot; 
+                                          width=&quot;1200&quot; 
+                                          height=&quot;900&quot; 
+                                          align=&quot;left&quot; /&gt;;</description>
+            <styleUrl>#2</styleUrl>
+            <Point id="9">
+                <coordinates>-51.728321,-0.085532,15.909</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="12">
+            <name>IMG_20210916_112512130</name>
+            <description>&lt;h2 style=&quot;background-color: #7700bb; color: #ffffff&quot;&gt;
+                                            Data/Hora: 2021:09:16 11:25:12
+                                        &lt;/h2&gt;
+                                        &lt;img 
+                                          src=&quot;images/IMG_20210916_112512130.jpg&quot; 
+                                          alt=&quot;picture&quot; 
+                                          width=&quot;1200&quot; 
+                                          height=&quot;900&quot; 
+                                          align=&quot;left&quot; /&gt;;</description>
+            <styleUrl>#2</styleUrl>
+            <Point id="11">
+                <coordinates>-51.369515,2.727482,7.051</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="14">
+            <name>IMG_20210924_100040106</name>
+            <description>&lt;h2 style=&quot;background-color: #7700bb; color: #ffffff&quot;&gt;
+                                            Data/Hora: 2021:09:24 10:00:40
+                                        &lt;/h2&gt;
+                                        &lt;img 
+                                          src=&quot;images/IMG_20210924_100040106.jpg&quot; 
+                                          alt=&quot;picture&quot; 
+                                          width=&quot;1200&quot; 
+                                          height=&quot;900&quot; 
+                                          align=&quot;left&quot; /&gt;;</description>
+            <styleUrl>#2</styleUrl>
+            <Point id="13">
+                <coordinates>-51.651758,0.001696,13.25</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

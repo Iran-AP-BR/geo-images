@@ -3,6 +3,6 @@
 **/.vscode
 **/venv/
 **/.pyc
-notebooks/tests/*
 **/*.sh
 **/.ipynb_checkpoints
+**/*.env

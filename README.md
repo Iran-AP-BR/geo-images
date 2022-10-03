@@ -1,6 +1,6 @@
-# geo-images 
+# pictures-metadata 
 
-## Extração de coordenadas geográficas de arquivos de imagens  
+## Extração de metadados de arquivos de imagens  
 
 <br/> 
 
@@ -8,13 +8,13 @@
 
 <br/> 
 
-    docker build . -t geo-images
+    docker build . -t pictures-metadata
 
 ### 2. Sugestão de execução do contêiner, via CLI: 
 
 <br/> 
 
-    docker run -p8888:8888 -v <path-to-notebooks-directory>:/home/geo-images geo-images  
+    docker run -p8888:8888 -v <path-to-notebooks-directory>:/home/pictures-metadata pictures-metadata  
  
 <br/> 
  

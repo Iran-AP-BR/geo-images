@@ -1,6 +1,6 @@
 FROM python:3.8
 
-ARG NAME=geo-images
+ARG NAME=pictures-metadata
 
 RUN apt-get update -y && \
     apt-get install tini -y
