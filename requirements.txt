@@ -1,0 +1,8 @@
+jupyterlab
+pandas
+numpy
+piexif
+pillow
+pillow_heif
+pyproj
+simplekml

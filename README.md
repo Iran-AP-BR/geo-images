@@ -1,4 +1,4 @@
-# pictures-metadata 
+# photo-metadata 
 
 ## Extração de metadados de arquivos de imagens  
 
@@ -8,13 +8,13 @@
 
 <br/> 
 
-    docker build . -t pictures-metadata
+    docker build . -t photo-metadata
 
 ### 2. Sugestão de execução do contêiner, via CLI: 
 
 <br/> 
 
-    docker run -p8888:8888 -v <path-to-notebooks-directory>:/home/pictures-metadata pictures-metadata  
+    docker run -p<porta>:8888 -v <path-to-notebooks-directory>:/home/photo-metadata photo-metadata  
  
 <br/> 
  
@@ -23,13 +23,13 @@
 
 <br />
 
-> Alternativamente, pode-se utilizar Docker Desktop em vez da CLI.
+### 3. Alternativamente, pode-se utilizar Docker Desktop em vez da CLI.
 
 <br />  
 
-> Como aqui a finalidade do Docker é apenas garantir um ambiente pronto para utilização, pode-se usar o notebook diretamente sem rodar o contêiner. Para isso, deve-se preparar o ambiente manualmente.
+### 4. Como aqui a finalidade do Docker é apenas garantir um ambiente pronto para utilização, pode-se usar o notebook diretamente sem rodar o contêiner. Para isso, deve-se preparar o ambiente manualmente, instalando o python, o jupyter e os demias pacotes necessários.
 
 <br/> 
 
-### O notebook pode ser utilizado a partir da url: http://localhost:8888
+### 5. O notebook pode ser utilizado a partir da url: http://localhost:8888
 
