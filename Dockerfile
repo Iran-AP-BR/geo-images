@@ -7,15 +7,15 @@ RUN apt-get update -y && \
 
 RUN echo "PS1='\u @ \e[33m${NAME}\e[m \e[36m\w \$\e[m '" >> /etc/bash.bashrc
 
-WORKDIR /home/${NAME}
+WORKDIR /root
 
 COPY ./requirements.txt .
 RUN python -m pip install --upgrade pip && \
     pip install -r requirements.txt
 
-COPY ./user-settings/* /root/.jupyter/lab/user-settings/@jupyterlab
+COPY ./user-settings/ ./.jupyter/lab/user-settings/
 
 ENTRYPOINT ["tini", "--"]
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", \
-     "--NotebookApp.token=''","--NotebookApp.password=''", "--allow-root"]
+     "--ServerApp.token=''","--ServerApp.password=''", "--allow-root"]

@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+  photo-metadata:
+    build: "."
+    image: photo-metadata
+    container_name: photo-metadata-container
+    volumes:
+      - ./notebooks:/root/notebooks
+    expose:
+      - 8888
+    ports:
+      - "8888:8888"
+
+    restart: always

@@ -4,22 +4,22 @@
 
 <br/> 
 
-### 1. Sugestão de construção da imagem do contêiner, via CLI:  
+### 1. Construção da imagem do contêiner, via CLI (command-line interface):  
 
 <br/> 
 
-    docker build . -t photo-metadata
+    docker-compose build
 
-### 2. Sugestão de execução do contêiner, via CLI: 
+### 2. Execução do contêiner, via CLI: 
 
 <br/> 
 
-    docker run -p<porta>:8888 -v <path-to-notebooks-directory>:/home/photo-metadata photo-metadata  
+    docker-compose up  
  
 <br/> 
  
 
-> A porta sugerida é 8888, mas pode ser qualquer porta disponível.  
+> A porta sugerida é 8888, mas pode ser qualquer porta disponível. Para utilizar outra porta, basta editar o arquivo `docker-compose.yaml` e alterar essa informação.  
 
 <br />
 
@@ -27,9 +27,9 @@
 
 <br />  
 
-### 4. Como aqui a finalidade do Docker é apenas garantir um ambiente pronto para utilização, pode-se usar o notebook diretamente sem rodar o contêiner. Para isso, deve-se preparar o ambiente manualmente, instalando o python, o jupyter e os demias pacotes necessários.
+### 4. Como aqui a finalidade do Docker é apenas garantir um ambiente pronto para utilização, pode-se usar o notebook diretamente sem rodar o contêiner. Para isso, deve-se preparar o ambiente manualmente, instalando o python (3.8), os pacotes necessários, indicados no arquivo `requirements.txt`.
 
 <br/> 
 
-### 5. O notebook pode ser utilizado a partir da url: http://localhost:8888
+### 5. Se a porta escolhida for a `8888`, o notebook pode ser utilizado a partir da url: http://localhost:8888
 
